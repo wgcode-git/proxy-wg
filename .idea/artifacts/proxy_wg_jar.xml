@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="proxy-wg:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/proxy_wg_jar</output-path>
+    <root id="archive" name="proxy-wg.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/resource/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="proxy-wg" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
